@@ -1,8 +1,10 @@
 epidcontroller
 =====
 
-epidcontroller is a controller libary for the PID algorithm in Erlang.
+epidcontroller is a controller libary for the PID(proportional–integral–derivative) algorithm in Erlang.
 The library is originally built for the home brewing software I'm writing.
+
+> See https://en.wikipedia.org/wiki/PID_controller
 
 Standard PID algorithm, with built in integral limits(defaults min:-10000000, max:10000000)
 
